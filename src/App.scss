@@ -1,0 +1,78 @@
+$backgroundColor: #070d59;
+$whiteColor:#FFF;
+
+.left-container {
+  background-color: $backgroundColor;
+  min-height: 100vh;
+}
+.left-inner-container {
+  margin-left: 8%;
+}
+.logo-container {
+  margin-top: "10px";
+}
+.logo {
+  left: "3%";
+}
+.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: $whiteColor;
+}
+
+.list {
+  cursor: pointer;
+  height: 50px;
+  background: #5893d4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-bottom: 7px;
+  padding: 7px;
+}
+.scrollable-list {
+  height: 500px;
+  overflow-x: hidden;
+}
+.list-label {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 31px;
+  color: $whiteColor;
+}
+.list-text {
+  color: $whiteColor;
+}
+.file-uploader {
+  cursor: pointer;
+  bottom: 10px;
+  position: absolute;
+  height: 50px;
+  background: #f7b633;
+  box-shadow: "0px 4px 4px rgba(0, 0, 0, 0.25)";
+  border-radius: 10px;
+  color: $whiteColor;
+  text-align: center;
+  padding: 10px;
+}
+.right-container{
+  margin-top: 20px 
+}
+.right-inner-container{ 
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+   align-items: center;
+   color: #2D1F3F;
+}
+.doc2-icon{
+  float: left;
+  width: 32px
+}
+.cp{
+  cursor: pointer 
+}
